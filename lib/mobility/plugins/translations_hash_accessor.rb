@@ -17,9 +17,7 @@ module Mobility
         end
       end
 
-      private
-
-      def define_translations_reader(name, locales)
+      private def define_translations_reader(name, locales)
         locales_array = locales.map(&:inspect).join(", ")
 
         module_eval <<-EOM, __FILE__, __LINE__ + 1

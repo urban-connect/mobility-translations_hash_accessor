@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name = "mobility-translations_hash_accessor"
   spec.version = Mobility::TranslationsHashAccessor::VERSION
   spec.authors = ["Urban Connect"]
-  spec.email = ["dev@urbanconnect.io"]
+  spec.email = ["dev@urban-connect.ch"]
 
   spec.summary = "Mobility plugin that generates _translations_hash reader methods"
   spec.description = "A Mobility plugin that adds {attribute}_translations_hash methods " \

@@ -16,6 +16,8 @@ bundle exec standardrb --fix # Auto-fix lint issues
 ## Coding Conventions
 
 - Always start every new file with `# frozen_string_literal: true`
+- Always put `private` directly before the method name: `private def method_name`
+- Run `bundle exec standardrb --fix` to auto-correct lint issues when possible before committing
 - Do not commit unless explicitly asked to
 - Do not push branches unless explicitly asked to
 - Never force push
